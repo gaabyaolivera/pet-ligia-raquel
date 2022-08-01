@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #be7546;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+
+footer  p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+section{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+img{
+    max-width: 95%;
+}
+
+.roupaUm, .roupaDois, .roupaTres, .roupaQuatro{
+    margin-right: 15px;
+}
+
+.informacao{
+    width: 294px;
+    border-radius: 3px;
+}
+.pnome{
+    color: grey;
+    
+}
+.ppreco{
+    color: #793623;
+    font-weight: bold;
+}
+
+.informacao  p{
+    font-size: 17px;
+    padding: 3px;
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 50px;
+}
+
+a:hover{
+    color: #be7546;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    height: 25px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    border: 3px solid #F5F5F5 ;
+    padding: 2px;
+    margin-left: 60px;
+    width: 300px;
+}
+
+.logo{
+    margin-left: 45px;
+    height: 70px;
+    width: 100px;
+    
+}
+.imglogo{
+    max-height: 100%;
+}
